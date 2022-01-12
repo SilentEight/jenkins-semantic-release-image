@@ -24,4 +24,4 @@ ENV PATH="$PATH:/semantic-release/node_modules/.bin"
 USER node
 WORKDIR /home/node
 
-CMD ["bash"]
+CMD ["semantic-release"]
