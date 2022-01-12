@@ -1,4 +1,4 @@
-Changelog
+# Changelog
 
 ## [1.0.1](https://github.com/SilentEight/jenkins-semantic-release-image/compare/v1.0.0...v1.0.1) (2022-01-12)
 
@@ -7,7 +7,7 @@ Changelog
 
 * try to fix the changelog ([bf9333c](https://github.com/SilentEight/jenkins-semantic-release-image/commit/bf9333c0c0eb25261f6506da8c531d939f6b9a6c))
 
-# 1.0.0 (2022-01-12)
+## 1.0.0 (2022-01-12)
 
 
 ### Bug Fixes
