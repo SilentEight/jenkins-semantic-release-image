@@ -72,8 +72,8 @@ jobs:
           flavor: |
             latest=auto
           tags: |
-            type=raw,enable={{ steps.semantic.outputs.new_release_published }},value={{ steps.semantic.outputs.new_release_version }}
-            type=raw,enable={{ steps.semantic.outputs.new_release_published }},value={{ steps.semantic.outputs.new_release_major_version }}.{{ steps.semantic.outputs.new_release_minor_version }}
+            type=raw,enable=${{ steps.semantic.outputs.new_release_published == 'true' }},value=${{ steps.semantic.outputs.new_release_version }}
+            type=raw,enable=${{ steps.semantic.outputs.new_release_published == 'true' }},value=${{ steps.semantic.outputs.new_release_major_version }}.${{ steps.semantic.outputs.new_release_minor_version }}
             type=ref,event=branch
 
       # Build and push Docker image with Buildx (don't push on PR)
