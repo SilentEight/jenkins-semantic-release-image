@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/SilentEight/jenkins-semantic-release-image/compare/v1.0.3...v1.0.4) (2022-01-12)
+
+
+### Bug Fixes
+
+* revert to releasing from single workflow ([f4dd7fa](https://github.com/SilentEight/jenkins-semantic-release-image/commit/f4dd7fa515bf620aaeb66ebe2e83c77e5e4bf5d4))
+
 ## [1.0.3](https://github.com/SilentEight/jenkins-semantic-release-image/compare/v1.0.2...v1.0.3) (2022-01-12)
 
 
