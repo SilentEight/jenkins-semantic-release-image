@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/SilentEight/jenkins-semantic-release-image/compare/v1.0.2...v1.0.3) (2022-01-12)
+
+
+### Bug Fixes
+
+* correctly build on tag push ([eba3aab](https://github.com/SilentEight/jenkins-semantic-release-image/commit/eba3aab7fa72b26d93e2c1b1166b7cb8f2fde7e3))
+
 ## [1.0.2](https://github.com/SilentEight/jenkins-semantic-release-image/compare/v1.0.1...v1.0.2) (2022-01-12)
 
 
