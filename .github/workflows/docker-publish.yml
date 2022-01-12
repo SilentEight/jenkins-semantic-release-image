@@ -40,7 +40,7 @@ jobs:
             @semantic-release/changelog@6.0.1
             @semantic-release/git@10.0.1
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
 
       # Login against a Docker registry except on PR
       # https://github.com/docker/login-action
