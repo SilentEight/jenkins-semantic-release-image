@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/SilentEight/jenkins-semantic-release-image/compare/v1.0.4...v1.0.5) (2022-01-12)
+
+
+### Bug Fixes
+
+* hack around the metadata ([2fef773](https://github.com/SilentEight/jenkins-semantic-release-image/commit/2fef7733b9d5dcaea69206f382ff3e28635da2ed))
+
 ## [1.0.4](https://github.com/SilentEight/jenkins-semantic-release-image/compare/v1.0.3...v1.0.4) (2022-01-12)
 
 
